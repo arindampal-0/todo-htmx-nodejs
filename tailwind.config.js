@@ -1,0 +1,1 @@
+// for tailwindcss autocomplete plugin

@@ -2,7 +2,7 @@
 // eslint-disable-next-line
 import * as elements from "typed-html";
 
-import { type Todo } from "./todo.js";
+import { type Todo } from "../models/todo.js";
 
 export function IndexPageView(): string {
     return (

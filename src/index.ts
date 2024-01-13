@@ -1,10 +1,7 @@
 import express from "express";
 import helmet from "helmet";
-// import crypto from "crypto";
 
-import { IndexPageHandler, GetTodosHandler } from "./handlers.js";
-
-// crypto.randomUUID();
+import { IndexPageHandler, GetTodosHandler } from "./handlers/handlers.js";
 
 const app = express();
 const PORT = 3000;

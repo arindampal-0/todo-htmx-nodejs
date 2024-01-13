@@ -1,7 +1,7 @@
 import type { Request, Response } from "express";
 
-import { GetTodos } from "./todo.js";
-import { IndexPageView, TodosView } from "./views.js";
+import { GetTodos } from "../models/todo.js";
+import { IndexPageView, TodosView } from "../views/views.js";
 
 export function IndexPageHandler(_req: Request, res: Response) {
     res.setHeader("Content-Type", "text/html");
